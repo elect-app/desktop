@@ -1,0 +1,70 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    margin: auto;
+    padding: 2 rem;
+  }
+
+/*#title {
+    text-align: center;
+    width: 100%;
+    font-size: 3rem;
+}
+
+#heading {
+    position: fixed;
+    width: 100%;
+    background-color: rgb(51, 153, 214);
+}*/
+
+#aboutHeading {
+    background-color: rgb(51, 154, 214);
+    position: fixed;
+    width: 100%;
+    padding: 1.3cm;
+    color: white;
+    font-size: 70px;
+
+}
+/*
+Heading's icon
+*/
+#icon {
+    color: white;
+    margin-right: 22%;
+    
+}
+
+p {
+    text-align: left;
+    font-family:'Courier New';
+    font-size: 1rem;
+}
+
+#goBack {
+    position: fixed;
+bottom: -6px;
+right: 10px;
+width: 70px;
+height: auto;
+padding: 25px;
+border: none;
+z-index: 99;
+-webkit-transform: translate3d(0,0,0);
+-webkit-transition: all .25s ease;
+-moz-transition: all .25s ease;
+-ms-transition: all .25s ease;
+-o-transition: all .25s ease;
+transition: all .25s ease;
+text-align: center;
+}
+
+#goBackBtn {
+    text-align: left;
+    right: 145px;
+}
+
+#goBackBtnText{
+    text-align: center;
+    font-size: 2rem;
+}
+
