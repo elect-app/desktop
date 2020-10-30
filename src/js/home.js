@@ -23,8 +23,8 @@ function quit_the_app() {
     ipcRenderer.send('app', 'quit');
 }
 //Minimize window
-function min() {
-    const remote = (window.require) ? window.require("electron").remote : null;
+function min() { 
+    const remote = (window.require) ? window.require("electron").remote : null;   
     const WIN = remote.getCurrentWindow();
     WIN.minimize();
 }

@@ -8,6 +8,7 @@ class File {
       this.path = path.join(userDataPath, opts.fileName + '.json');
       
       this.data = parseDataFile(this.path, opts.defaults);
+      this.fileName = opts.fileName;
     }
     
     get(key) {
@@ -17,7 +18,11 @@ class File {
     set(key, val) {
       this.data[key] = val;
       fs.writeFileSync(this.path, JSON.stringify(this.data));
-      this.data = parseDataFile(this.path, opts.defaults);
+    }
+
+    clear() {
+        this.data = {};
+        fs.writeFileSync(this.path, JSON.stringify(this.data));
     }
 }
   
