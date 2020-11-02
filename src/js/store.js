@@ -14,6 +14,12 @@ class File {
     get(key) {
       return this.data[key];
     }
+
+    getDirect(key) {
+      this.data = parseDataFile(this.path, opts.defaults);
+
+      return this.data[key];
+    }
     
     set(key, val) {
       this.data[key] = val;
