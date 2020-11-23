@@ -16,7 +16,7 @@ A clear and concise description of what you want to happen.
 **Describe alternatives you've considered**
 A clear and concise description of any alternative solutions or features you've considered.
 
-**Desktop (optional, but recommended):**
+**Desktop (optional, but recommened):**
  - OS: [e.g. Mac, windows, linux]
  - Version [e.g. 22]
 
