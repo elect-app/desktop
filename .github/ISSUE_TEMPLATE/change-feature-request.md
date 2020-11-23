@@ -1,0 +1,17 @@
+---
+name: Change feature request
+about: Don't like a few features ? Help us know to improve.
+title: 'Change feature request - '
+labels: enhancement
+assignees: ''
+
+---
+
+**Is your request related to a problem? Please describe.**
+A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]
+
+**Describe what you'd like instead of that**
+A clear and concise description of what you want to happen.
+
+**Additional context**
+Add any other context or screenshots about the feature request here.
